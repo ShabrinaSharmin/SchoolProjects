@@ -54,6 +54,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 
 👉 [Link](Software_Projects/Java/Student_Course_Booking_Android_App)
 
+---
 
 ### 🧪 Citation Quality in Language Models (Python, NLP, PyTorch) ###
 
