@@ -22,7 +22,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 * Designed structured test scenarios from functional requirements
 * Identified and validated defects to improve application reliability
 
-👉 [Link](Software_Quality_Assurance\Assign3_Automated_Testing_Project)
+👉 [Link](Software_Quality_Assurance/Assign3_Automated_Testing_Project)
 
 ---
 
@@ -32,7 +32,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 * Applied K-Means and DBSCAN clustering for pattern discovery
 * Built recommendation logic using similarity measures (Cosine, Jaccard)
 
-👉 [Link](Intro_To_Data_Science\Assign_4_Clustering_Recommendation\CSI_4142_Assign4_Part1.ipynb)
+👉 [Link](Intro_To_Data_Science/Assign_4_Clustering_Recommendation/CSI_4142_Assign4_Part1.ipynb)
 
 ---
 
@@ -42,7 +42,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 * Implemented SQL queries, views, triggers, and indexing
 * Built an interactive interface for managing bookings and customer records
 
-👉 [Link](Database\E_Hotel_Management_System)
+👉 [Link](Database/E_Hotel_Management_System)
 
 ---
 
@@ -52,7 +52,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 * Contributed to UI design and system functionality
 * Created and executed functional test cases for key workflows
 
-👉 [Link](Software_Projects\Java\Student_Course_Booking_Android_App)
+👉 [Link](Software_Projects/Java/Student_Course_Booking_Android_App)
 
 
 ### 🧪 Citation Quality in Language Models (Python, NLP, PyTorch) ###
@@ -62,7 +62,7 @@ I am a recent Computer Science graduate with hands-on experience in **software d
 * Adapter and fine-tuned a smaller language model for citation-aware question answering and evaluated against attribution benchmarks
 * Analyzed model performance to reduce hallucinations and improve alignment with source documents
 
-👉 [Link](Honours_Project\citation-quality-evaluation-task-server-main\README.md)
+👉 [Link](Honours_Project/citation-quality-evaluation-task-server-main/README.md)
 
 
 ---
