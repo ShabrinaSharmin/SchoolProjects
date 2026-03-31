@@ -1,0 +1,25 @@
+SELECT Title, ISBN10, ISBN13, CopyrightYear, LatestInstockDate, TrimSize, PageCountsEditorialEst, Description FROM BOOKS WHERE ID = 484
+
+
+SELECT Imprint  FROM Imprints WHERE ID = (SELECT ImprintID from Books where ID=484) (good)
+
+
+SELECT BindingType  FROM BindingTypes WHERE ID = (SELECT BindingTypeID from Books where ID=484) (good)
+
+SELECT SubcategoryName  FROM Subcategories WHERE ID = (SELECT SubcategoryID from Books where ID=484) (good)
+
+Select FirstName, LastName FROM Authors WHERE ID = (SELECT AuthorID from BookAuthors where BookId = 484) (good)
+
+
+SELECT ProductionStatus  FROM ProductionStatuses WHERE ID = (SELECT ProductionStatusID from Books where ID=484) ()
+
+SELECT 
+
+
+
+
+SELECT SubcategoryName FROM Subcategories ORDER BY SubcategoryName ASC LIMIT 20
+
+SELECT Imprint from Imprints 
+SELECT ProductionStatus FROM ProductionStatuses
+SELECT BindingType  FROM BindingTypes

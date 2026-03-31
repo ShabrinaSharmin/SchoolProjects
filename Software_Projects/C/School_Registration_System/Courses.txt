@@ -1,0 +1,10 @@
+CST8108 Network Programming Basics
+CST8215 Database
+CST8110 Introduction to Computer Programming
+CST8132 Object-Oriented Programming
+CST8130 Data Structures
+CST8234 C Language
+CST8238 Web Programming
+CST8219 C++ Programming
+CST888 Project
+CST888 Python

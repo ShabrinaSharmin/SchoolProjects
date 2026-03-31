@@ -1,0 +1,12 @@
+{
+    "length": 70.07284462886123,
+    "str_em": 0,
+    "str_hit": 0,
+    "str_em_eq_w": 0,
+    "doc_adj_str_em": 0,
+    "mauve": 31.305651947828792,
+    "citation_rec": 50.7629146633296,
+    "citation_prec": 50.77378707046757,
+    "citation_rec_eq_w": 54.40130409010077,
+    "citation_prec_eq_w": 52.512532094388064
+}

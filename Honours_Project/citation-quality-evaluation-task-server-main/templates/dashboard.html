@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - CQETS</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="CQETS Logo" class="logo">
+            <span class="project-name">CQETS</span>
+        </div>
+        <div class="nav-right">
+            <a href="{{ url_for('add_task') }}">Add Task</a>
+            <a href="{{ url_for('view_tasks') }}">View Tasks</a>
+            <a href="{{ url_for('compare_results') }}">Compare Results</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Hello {{ first_name }}!</h2>
+        <div class="dashboard-cards">
+            <a href="{{ url_for('add_task') }}" class="dashboard-card card">
+                <img src="{{ url_for('static', filename='images/add_task.png') }}" alt="Add Task">
+                <h3>Add Task</h3>
+            </a>
+            <a href="{{ url_for('view_tasks') }}" class="dashboard-card card">
+                <img src="{{ url_for('static', filename='images/view_task.png') }}" alt="View Task">
+                <h3>View Tasks</h3>
+            </a>
+            <a href="{{ url_for('compare_results') }}" class="dashboard-card card">
+                <img src="{{ url_for('static', filename='images/compare_results.png') }}" alt="Compare Results">
+                <h3>Compare Results</h3>
+            </a>
+            <a href="{{ url_for('logout') }}" class="dashboard-card card">
+                <img src="{{ url_for('static', filename='images/logout.png') }}" alt="Logout">
+                <h3>Logout</h3>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,293 @@
+/* ================== General Page Styling ================== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #ffffff);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* ================== Navbar ================== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left .logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav-left .project-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-right a:hover {
+    color: #007bff;
+}
+
+/* ================== Cards ================== */
+.card {
+    background: linear-gradient(135deg, #f8f9fa, #ffffff);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card h2, .card h3 {
+    color: #333;
+}
+
+.card h3 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.card h4 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+}
+
+/* ================== Dashboard Cards Layout ================== */
+.dashboard-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.dashboard-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    color: #333;
+}
+
+.dashboard-card:hover {
+    transform: translateY(-3px);
+}
+
+.dashboard-card img {
+    width: 50px;
+    margin-right: 20px;
+}
+
+/* ================== Forms ================== */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="password"],
+form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+    outline: none;
+}
+
+.input-with-button {
+    display: flex;
+    gap: 10px;
+}
+
+.input-with-button input {
+    flex: 1;
+}
+
+.input-with-button button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.input-with-button button:hover {
+    background-color: #45a049;
+}
+
+/* ================== Buttons ================== */
+.btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.btn.view-btn {
+    display: inline-block;
+    padding: 2px 2px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.btn.view-btn:hover {
+    background-color: #4cafef;
+    color: white;
+    transform: scale(1.02);
+}
+
+/* ================== Tables ================== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+thead {
+    background: linear-gradient(90deg, #007bff, #00bfff);
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #cce0ff;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f7ff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tbody tr:hover {
+    background-color: #e0f0ff;
+}
+
+td {
+    transition: background 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+}
+
+td[style*="color:red"] {
+    font-weight: bold;
+    background-color: #ffe6e6;
+    color: #c70000;
+}
+
+
+td[style*="background-color:fancy_green"] {
+    font-weight: bold;
+    background-color:  rgb(117, 211, 54);
+}
+
+
+tbody td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* ================== Form Row & Dropdowns ================== */
+.form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    flex: 1;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ================== Responsive for Desktop ================== */
+@media screen and (min-width: 768px) {
+    .dashboard-cards {
+        flex-direction: row;
+    }
+}
+
+/* Optional: make the compare results table scrollable if too wide */
+.card table {
+    overflow-x: auto;
+    display: block;
+}

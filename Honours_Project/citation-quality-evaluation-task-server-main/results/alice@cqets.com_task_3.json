@@ -1,0 +1,44 @@
+{
+    "model_name": "mistralai/Mistral-7B-v0.3 (Finetuned_fgRS)",   
+    "ASQA":{
+    "length": 27.15717299578059,
+    "str_em": 34.7696905766526,
+    "str_hit": 10.232067510548523,
+    "str_em_eq_w": 33.071608040201006,
+    "doc_adj_str_em": 0,
+    "mauve": 58.26752248067876,
+    "citation_rec": 76.43987341772151,
+    "citation_prec": 74.05414908579465,
+    "citation_rec_eq_w": 78.77984084880637,
+    "citation_prec_eq_w": 77.9265873015873
+    },
+    "QAMPARI":
+    {
+    "length": 12.439,
+    "str_em": 0,
+    "str_hit": 0,
+    "str_em_eq_w": 0,
+    "doc_adj_str_em": 0,
+    "num_preds": 3.646,
+    "qampari_prec": 16.204539641858894,
+    "qampari_rec": 9.848894625658982,
+    "qampari_rec_top5": 16.02,
+    "qampari_f1": 11.029728199975304,
+    "qampari_f1_top5": 15.344149704329402,
+    "qampari_prec_eq_w": 0.25479978058145913,
+    "qampari_rec_eq_w": 0.06103701687534023,
+    "qampari_rec_top5_eq_w": 0.1602,
+    "qampari_f1_eq_w": 0.09848262540916097,
+    "qampari_f1_top_5_eq_w": 0.19671781412490422,
+    "qampari_doc_adj_prec": 0,
+    "qampari_doc_adj_rec": 0,
+    "qampari_doc_adj_rec_top5": 0,
+    "qampari_doc_adj_f1": 0,
+    "qampari_doc_adj_f1_top5": 0,
+    "citation_rec": 15.156456818733034,
+    "citation_prec": 16.62656856407304,
+    "citation_rec_eq_w": 23.41650671785029,
+    "citation_prec_eq_w": 29.697811740187564
+}
+
+}

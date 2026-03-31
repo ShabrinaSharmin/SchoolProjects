@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Added - CQETS</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="CQETS Logo" class="logo">
+            <span class="project-name">CQETS</span>
+        </div>
+        <div class="nav-right">
+            <a href="{{ url_for('dashboard') }}">Dashboard</a>
+            <a href="{{ url_for('add_task') }}">Add Task</a>
+            <a href="{{ url_for('view_tasks') }}">View Tasks</a>
+            <a href="{{ url_for('compare_results') }}">Compare Results</a>
+            <a href="{{ url_for('logout') }}">Logout</a>
+        </div>
+    </nav>
+
+    <div class="container card">
+        <h2>Task "{{ task.task_name }}" Added Successfully!</h2>
+        <p>Model: {{ task.model_name }}</p>
+        <p>Evaluation: {{ task.evaluation_type }}</p>
+        <p>Compute IP: {{ task.compute_ip }}</p>
+        <p>User: {{ task.compute_user }}</p>
+        <p>Notification Emails: {{ task.additional_emails }}</p>
+        <a href="{{ url_for('dashboard') }}" class="btn">Back to Dashboard</a>
+    </div>
+</body>
+</html>

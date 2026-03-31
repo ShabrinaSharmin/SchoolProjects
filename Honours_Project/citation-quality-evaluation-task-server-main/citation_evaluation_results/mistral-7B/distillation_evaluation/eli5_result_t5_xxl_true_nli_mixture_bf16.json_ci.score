@@ -1,0 +1,15 @@
+{
+    "length": 73.933,
+    "str_em": 0,
+    "str_hit": 0,
+    "str_em_eq_w": 0,
+    "doc_adj_str_em": 0,
+    "rougeLsum": 20.714982363276448,
+    "mauve": 43.158971578890814,
+    "citation_rec": 51.086137566137566,
+    "citation_prec": 49.911278998779004,
+    "citation_rec_eq_w": 53.650157457772686,
+    "citation_prec_eq_w": 51.69391139540393,
+    "claims_nli": 12.6,
+    "doc_adj_claims_nli": 0
+}
